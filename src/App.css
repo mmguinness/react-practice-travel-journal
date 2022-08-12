@@ -12,16 +12,14 @@ body {
 .App-header {
   height: 100px;
   display: flex;
-  align-items: center;
   color: #282c34;
   background-color: white;
-  box-shadow: 0px 0px 10px grey;
   padding: 20px 36px;
   letter-spacing: -0.05em;
-  justify-content: center;
   position: sticky;
   top: 0;
   z-index: 2;
+  width: 500px;
 }
 
 .header--image {
@@ -33,7 +31,7 @@ body {
 }
 
 section {
-  padding: 20px 36px;
+  padding: 20px 16px;
 }
 
 .card {
@@ -48,7 +46,7 @@ section {
 
 .card--image {
   display: flex;
-  height: 100%;
+
   border-radius: 12px;
 }
 
